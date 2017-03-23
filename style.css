@@ -1,0 +1,35 @@
+.carrousel {
+	margin:0;
+	padding:0;
+	height:75px;
+}
+.carrousel li {
+	float:left;
+	width:500px;
+	height:300px;
+	margin:0;
+	padding:0;
+	text-align:center;
+    list-style-type: none;
+}
+
+.carrousel li img {
+    width : 500px;
+    height: 300px;
+}
+
+li a img {
+	width : 50px;
+	height: 50px;
+}
+li .gauche {
+	position: absolute;
+	top: 130px;
+	left: 0;
+}
+
+li .droite{
+	position: absolute;
+	top: 130px;
+	left: 465px;
+}
